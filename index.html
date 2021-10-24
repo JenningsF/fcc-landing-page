@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,52 @@
     <link rel="stylesheet" href="style.css">
     <title>Piano Repair Landing Page</title>
 </head>
+
 <body>
-    
+    <header id="header" class="header">
+        <img src="" id="header-img" class="logo">
+
+        <nav id="nav-bar">
+            <ul>
+                <li class="nav-link" href="#about">About</li>
+                <li class="nav-link" href="#features">Features</li>
+                <li class="nav-link" href="#contact-form">Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <p>Have your piano sounding like new in no time!</p>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/6QVmgyqUpuI" title="Piano tuning video"
+            frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="features">
+        <h2>Expert Technicians</h2>
+        <p>Our technicians are all expertly trained and members of the <a href="https://www.ptg.org/home" target="_blank">Piano Technicians Guild</a>.</p>
+        <h2>Convenient Service</h2>
+        <p>Our technicians will conveniently travel to your piano for its tuning.</p>
+        <h2>Satisfaction Guaranteed</h2>
+        <p>If you are not satisfied with your piano's tuning, we'll return for a tune free of charge.</p>
+    </section>
+
+    <section id="contact-form">
+        Contact us today for tuning quote at no cost!
+        <a href="tel:+11234567890">Call Now!</a>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input name="email" type="email" id="email" placeholder="Enter your email" required>
+            <input name="submit" type="submit" id="submit" value="Submit" class="button">
+        </form>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#contact-form">Contact</a></li>
+        </ul>
+        <span>Copyright 2021, Piano Tuners</span>
+    </footer>
 </body>
+
 </html>
