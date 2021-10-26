@@ -1,4 +1,4 @@
-# Tribute Page
+# Landing Page
 
 A landing page created to practice responsive web design in HTML and CSS.
 
